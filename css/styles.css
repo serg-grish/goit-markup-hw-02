@@ -1,6 +1,54 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --active-color: rgb(33, 150, 243);
+}
 .link {
   text-decoration: none;
 }
+
 .list {
   list-style: none;
 }
+/* Верхняя линия */
+.topline {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+.line {
+  position: absolute;
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 80px;
+
+  border: 1px solid #ececec;
+}
+.webstudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: rgb(0, 0, 0);
+}
+.web {
+  color: #2196f3;
+}
+
+/* Шапка */
+
+/* Особенности */
+
+/* чем мы занимаемся */
+
+/* Наша команда */
+
+/* Подвал */ ;

@@ -19,42 +19,46 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <!--Шапка сайта-->
-    <header>
-      <nav>
-        <a class="link" href="./index.html">WebStudio</a>
+    <!--Верхняя линия-->
+    <header class="topline">
+      <div class="line">
+        <!-- Логотип WebStudio -->
+        <a href="index.html" lang="en" class="webstudio">
+          <span class="web">Web</span>Studio</a
+        >
+        <!-- Главная навигация -->
+        <nav>
+          <ul class="list">
+            <li class="link">
+              <a href="index.html">Студия</a>
+            </li>
+            <li class="link">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
 
         <ul class="list">
           <li>
-            <a class="link" href="Студия">Студия</a>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a class="link" href="Контакты">Контакты</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <!--Герой-->
-      <section>
+      <!--Шапка-->
+      <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button class="modal-btm" type="button">Заказать услугу</button>
       </section>
 
-      <!--О нас-->
+      <!--Особенности-->
       <section>
         <ul class="list">
           <li>
@@ -165,7 +169,7 @@
       </section>
     </main>
 
-    <!--Футтер-->
+    <!--Подвал-->
     <footer>
       <address>
         <a class="link" href="./index.html">WebStudio</a>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
+    <title>Студия</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -21,52 +21,60 @@
   <body>
     <!--Шапка сайта-->
     <header>
-      <nav>
-        <a class="link" href="./index.html">WebStudio</a>
+      <div class="topline">
+        <!-- Логотип WebStudio -->
+        <a href="" lang="en" class="webstudio link">
+          <span class="web">Web</span>Studio</a
+        >
+        <!-- Главная навигация -->
+        <nav>
+          <ul class="list">
+            <li class="link">
+              <a href="index.html">Студия</a>
+            </li>
+            <li class="link">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
+
         <ul class="list">
           <li>
-            <a class="link" href="index.html">Студия</a>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link" href="Портфолио">Портфолио</a>
-          </li>
-          <li>
-            <a class="link" href="Контакты">Контакты</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
-
-    <!--Selection-->
-    <section>
-      <ul>
-        <li>
-          <button type="button">Все</button>
-        </li>
-        <li>
-          <button type="button">Веб-сайты</button>
-        </li>
-        <li>
-          <button type="button">Приложения</button>
-        </li>
-        <li>
-          <button type="button">Дизайн</button>
-        </li>
-        <li>
-          <button type="button">Маркетинг</button>
-        </li>
-      </ul>
-      <div>
+    <main>
+      <!--Фильтр проектов-->
+      <section hidden>
+        <ul>
+          <li>
+            <button type="button">Все</button>
+          </li>
+          <li>
+            <button type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button">Приложения</button>
+          </li>
+          <li>
+            <button type="button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
+      <!--Секция проектов-->
+      <section>
+        <h2 hidden>Проекты</h2>
         <ul class="list">
           <li>
             <img
@@ -175,9 +183,8 @@
             <p>Приложение</p>
           </li>
         </ul>
-      </div>
-    </section>
-
+      </section>
+    </main>
     <!--Футтер-->
     <footer>
       <address>
