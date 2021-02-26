@@ -49,6 +49,10 @@
 
   color: #757575;
 }
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
 .mailto-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -186,4 +190,46 @@
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+/* портфолио*/
+.filter-btm {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #212121;
+}
+.filter-btm:hover,
+.filter-btm:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.project-tittle {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.project-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
