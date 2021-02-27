@@ -39,7 +39,7 @@
 .studio {
   color: var(--body-background-color);
 }
-.navigation-link {
+.navigation-link :current {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
